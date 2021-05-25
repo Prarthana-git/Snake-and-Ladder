@@ -8,8 +8,7 @@ public class checkoption
      int startposition=0;
      int currentposition=0;
 
-     while(currentposition != 50 )
-   {
+     System.out.println("Player current position is"+startposition);
      int dice=(int)((Math.floor(Math.random()*10)%6)+1);
      System.out.println("Dice Face are" +dice);
 
@@ -27,27 +26,6 @@ public class checkoption
                       currentposition+=0;
                       break;
 
-      }
-       if(currentposition==50)
-          {
-           System.out.println("You Won the game");
-           break;
-          }
-       else if(currentposition>50)
-          {
-            currentposition-=dice;
-            System.out.println("Keep playing.You will stay on same position"); 
-          }
-       else if(currentposition<0)
-          {
-           currentposition=startposition;
-           System.out.println("You are back to start");
-          }
-       else
-          {
-           System.out.println("New position"+currentposition);
-           }
+      } 
    }
-
- }
 }
