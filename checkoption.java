@@ -27,5 +27,6 @@ public class checkoption
                       break;
 
       } 
+     System.out.println("current position"+currentposition);
    }
 }
