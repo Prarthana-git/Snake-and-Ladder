@@ -8,7 +8,7 @@ public class checkoption
      int startposition=0;
      int currentposition=0;
 
-     System.out.println("Player current position is"+startposition);
+     System.out.println("Player current position is "+startposition);
      int dice=(int)((Math.floor(Math.random()*10)%6)+1);
      System.out.println("Dice Face are" +dice);
 
